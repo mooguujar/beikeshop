@@ -1,10 +1,4 @@
 <!doctype html>
-/*
- * @description: 
- * @Date: 2023-06-19 15:37:52
- * @LastEditors: am
- * @LastEditTime: 2023-06-19 16:05:00
- */
 <html lang="{{ locale() }}">
 <head>
   <meta charset="UTF-8">
