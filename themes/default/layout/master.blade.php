@@ -1,4 +1,10 @@
 <!doctype html>
+/*
+ * @description: 
+ * @Date: 2023-06-19 15:37:52
+ * @LastEditors: am
+ * @LastEditTime: 2023-06-19 16:05:00
+ */
 <html lang="{{ locale() }}">
 <head>
   <meta charset="UTF-8">
@@ -8,7 +14,7 @@
   <title>@yield('title', system_setting('base.meta_title', 'BeikeShop开源好用的跨境电商系统 - BeikeShop官网') . ' Powered By BeikeShop')</title>
   <meta name="keywords" content="@yield('keywords', system_setting('base.meta_keywords'))">
   <meta name="description" content="@yield('description', system_setting('base.meta_description'))">
-  <meta name="generator" content="BeikeShop v{{ config('beike.version') }}({{ config('beike.build') }})">
+  <!-- <meta name="generator" content="BeikeShop v{{ config('beike.version') }}({{ config('beike.build') }})"> -->
   <base href="{{ $shop_base_url }}">
   <link rel="stylesheet" type="text/css" href="{{ mix('/build/beike/shop/'.system_setting('base.theme').'/css/bootstrap.css') }}">
   <script src="{{ asset('vendor/jquery/jquery-3.6.0.min.js') }}"></script>
@@ -58,5 +64,5 @@
 
   @stack('add-scripts')
 </body>
-<!-- BeikeShop v{{ config('beike.version') }}({{ config('beike.build') }}) -->
+<!--  v{{ config('beike.version') }}({{ config('beike.build') }}) -->
 </html>
